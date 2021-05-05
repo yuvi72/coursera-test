@@ -1,0 +1,51 @@
+.container-fluid {
+    font-family:'Times New Roman', Times, serif ;
+    background-color: darkgray !important;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+span {
+    text-align: center;
+}
+.menu {
+    border: 2px solid black;
+    margin: 30px 5px 5px 5px;
+    background-color: darkgray;
+}
+
+.dropdown>.dropdown-menu {
+  display: block;
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    width: 80%;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .nav-link {
+    visibility: hidden;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+
+/*<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Chicken <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Beef</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sushi</a>
+                    </li>
+                  </ul>*/
